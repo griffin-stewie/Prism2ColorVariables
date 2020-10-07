@@ -1,0 +1,18 @@
+{
+  "$schema": "https://raw.githubusercontent.com/sketch-hq/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "Migrate Prism named colors to Color Variables",
+      "identifier": "prism2colorvariables.migrate",
+      "handler": "migrate",
+      "script": "./main.js"
+    }
+  ],
+  "menu": {
+    "title": "Prism2ColorVariables",
+    "items": [
+      "prism2colorvariables.migrate"
+    ]
+  }
+}
